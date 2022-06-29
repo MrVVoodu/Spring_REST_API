@@ -1,4 +1,4 @@
-package toh_rest_api;
+package toh_rest_api.database;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

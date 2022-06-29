@@ -1,8 +1,8 @@
-package toh_rest_api;
+package toh_rest_api.database;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-interface HeroRepository extends CrudRepository<Hero, Long> {
+public interface HeroRepository extends CrudRepository<Hero, Long> {
 }

@@ -1,4 +1,4 @@
-package toh_rest_api;
+package toh_rest_api.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -18,7 +18,7 @@ public class HeroControllerAdvice extends ResponseEntityExceptionHandler {
     }
 
     public static class HeroNotFoundException extends RuntimeException {
-        HeroNotFoundException(Long id) {
+        public HeroNotFoundException(Long id) {
             super("Could not find hero with id: " + id);
         }
     }

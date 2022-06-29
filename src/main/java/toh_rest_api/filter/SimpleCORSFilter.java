@@ -1,4 +1,4 @@
-package toh_rest_api;
+package toh_rest_api.filter;
 
 import java.io.IOException;
 import javax.servlet.Filter;
